@@ -1,0 +1,32 @@
+.cart-summary {
+  align-self: flex-end;
+}
+@media screen and (max-width: 768px) {
+  .cart-summary {
+    align-self: flex-start;
+  }
+}
+.total-heading {
+  font-family: 'roboto';
+  color: #616e7c;
+  font-size: 25px;
+}
+.span-heading {
+  color: #171f46;
+}
+.para-total {
+  font-family: 'roboto';
+  color: #616e7c;
+}
+.checkout-btn {
+  background-color: #0b69ff;
+  border: solid 0px;
+  border-radius: 5px;
+  height: 40px;
+  width: 100%;
+  font-family: 'roboto';
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+}
